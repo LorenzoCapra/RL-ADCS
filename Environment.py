@@ -141,8 +141,6 @@ class AttitudeControlEnv(gym.Env):
             else:
                 reward = np.exp(-arg) - 1.
 
-            # reward = - abs(self.state0[0]) - abs(self.state0[1]) - abs(self.state0[2]) + abs(self.state0[3])
-
             if qs >= np.cos(np.deg2rad(self.precision)/2):
                 reward += 9.
 

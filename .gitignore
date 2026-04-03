@@ -1,0 +1,22 @@
+build/
+*.egg-info/
+
+# plots/figures
+plots/
+
+# Spice Kernels
+kernels/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ipynb_checkpoints/
+.mypy_cache/
+.coverage
+.htmlcov/
+*.npy
+
+# Except this file
+!.gitignore
